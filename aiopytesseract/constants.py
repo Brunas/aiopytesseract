@@ -14,6 +14,7 @@ AIOPYTESSERACT_DEFAULT_OEM: int = 3
 
 # https://tesseract-ocr.github.io/tessdoc/Data-Files-in-different-versions.html
 TESSERACT_LANGUAGES: Set[str] = {
+    "digits",
     "afr",
     "amh",
     "ara",
